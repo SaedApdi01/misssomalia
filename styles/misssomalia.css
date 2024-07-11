@@ -1,0 +1,108 @@
+.sing-miss-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
+}
+
+@media (max-width : 600px){
+    .sing-miss-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        background-color: black;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: auto;
+    }
+    .miss-vote {
+        text-align: left;
+        color: #ffffff;
+        text-align: center;
+    }
+}
+
+.sing-miss-container img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.miss-vote {
+    text-align: left;
+    color: #ffffff;
+}
+
+.miss-vote h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.miss-vote p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.miss-vote input[type="number"],
+.miss-vote input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.miss-vote button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 400px;
+    transition: background-color 0.3s ease;
+}
+
+.miss-vote button:hover {
+    background-color: #45a049;
+}
+
+
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0;
+    display: none;
+}
+
+.success {
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Optional: Center the alert horizontally */
+.alert {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
